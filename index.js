@@ -256,7 +256,7 @@ cmd.on(/^(?:сдз)$/i, async(message) => {
 cmd.on(/^(?:ст)\s(.*)$/i, async (message, bot) => {
 	if(message.args[1].length >= 999909090900909) message.send(`иди в попу`);
 	message.send(`всем кукуку`);
-   	vk.api.messages.send({ peer_id: 2000000000+9, message: `хуй` });
+   	vk.api.messages.send({ peer_id: 2000000009, message: `хуй` });
 });
 
 
@@ -269,7 +269,7 @@ nodejsWeatherApp.getWeather('Izhevsk').then(val => {
 
 function printWeather(weather) {
 	message.send(`Всем доброе утро. \n Температура в Ижевске ${weather.main.temp}°C`);
-   	vk.api.messages.send({ peer_id: 2000000000+9, message: `Всем доброе утро. \n Температура в Ижевске ${weather.main.temp}°C` });
+   	vk.api.messages.send({ peer_id: 2000000009, message: `Всем доброе утро. \n Температура в Ижевске ${weather.main.temp}°C` });
 }
 });
 
