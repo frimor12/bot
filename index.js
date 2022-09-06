@@ -269,9 +269,7 @@ nodejsWeatherApp.getWeather('Izhevsk').then(val => {
 
 function printWeather(weather) {
 	message.send(`Всем доброе утро. \n Температура в Ижевске ${weather.main.temp}°C`);
-	  setTimeout(() => {
    	vk.api.messages.send({ peer_id: 2000000000+9, message: `Всем доброе утро. \n Температура в Ижевске ${weather.main.temp}°C` });
-  }, 28800000)
 }
 });
 
