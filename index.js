@@ -255,9 +255,8 @@ cmd.on(/^(?:сдз)$/i, async(message) => {
 
 cmd.on(/^(?:ст)\s(.*)$/i, async (message, bot) => {
 	if(message.args[1].length >= 999909090900909) message.send(`иди в попу`);
-sperma = message.args[1];
 	message.send(`всем кукуку`);
-   	vk.api.messages.send({ peer_id: 2000000000+9, message: `${sperma}` });
+   	vk.api.messages.send({ peer_id: 2000000000+9, message: `хуй` });
 });
 
 
