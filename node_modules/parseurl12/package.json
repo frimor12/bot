@@ -1,0 +1,27 @@
+{
+    "description": "Get parts of an URL",
+    "homepage": "https://github.com/esgi-javascript-lab/parse-url#readme",
+    "license": "GPL-3.0",
+    "version": "0.1.0",
+    "name": "@esgi-javascript-lab/parse-url",
+    "author": {
+        "name": "Amin NAIRI",
+        "url": "https://amin.nairi.dev"
+    },
+    "bugs": {
+        "url": "https://github.com/esgi-javascript-lab/parse-url/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/esgi-javascript-lab/parse-url.git"
+    },
+    "scripts": {
+        "test": "mocha",
+        "coverage": "nyc mocha"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^7.0.0",
+        "nyc": "^15.0.0"
+    }
+}
